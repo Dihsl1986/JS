@@ -12,7 +12,7 @@
             é uma seguida da outra.
 */
 
-console.log([
+/*console.log([
       "Leite",
       "Ovos",
       "Feijão",
@@ -20,6 +20,8 @@ console.log([
       3,
       5
 ]);
+*/
+
 /*
 
       # Tipos de dados
@@ -53,7 +55,29 @@ console.log([
                         * Null
                         * 
                   
-
+////
 
 
 */
+
+
+///Revisão de Array///
+
+const animals = [
+      "cachorro",
+      "Leão",
+      "Gato",{
+            name: "Alfredo",
+            age: 3
+      }
+
+]
+
+//Acessar valores dentro do array
+console.log(animals[2]);
+console.log(animals.length); // Aqui acessamos como se estivesse acessando a prorpiedade de um objeto.
+                              //Caso não tenha a posicão que eu coloquei vai aparece indefinido.
+// mostrar um objeto dentro de uma array
+
+console.log(animals);
+

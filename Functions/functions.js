@@ -1,4 +1,5 @@
-// Funções or functions
+// Funções or functions 
+//serve para agrupar código e dar significado.
 // Também é um tipo de dados.
 
 

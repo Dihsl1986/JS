@@ -5,8 +5,8 @@
             // function anonymous
 
 const sum = function(number1, number2){//parâmetros da função(ou parameters)
-             console.log(number1 + number2)
+             console.log(number1 + number2)// <-mas nessa função criada são parâmetros.
 }
-
-sum(443,21343); //(o number1 vai valer 2 e o number2 vai valer 3 
-            // dentro do escopo acima);
+    //Argumentos ou arguments de uma função executada.
+sum(443,21343); //oque estou colocando dentro da () São argumentos (//(o number1 vai valer 2 e o number2 vai valer 3 
+            // dentro do escopo acima);/////

@@ -30,10 +30,27 @@ console.log("fim do programa.");*/
 
 
 const sum = function(number1, number2) {
-   total = (number1 + number2)
-   return total
+   let total = (number1 + number2) // nunca colocar variável sem palavra chave como let/var ou const
+   return total                // 
    //Quando éla não tem o return ela retorna undefined
 }
+
+/*
+
+return : Uma função quando ela encontra um return
+imediatamente ela para sua execução e retorna oque vem 
+logo á frente.
+
+
+
+Quando coloco uma variável sem palavra chave como let/var/const corre
+o perigo de ela existir em qualquer lugar na aplicação inteira.
+
+E também evitamos o uso da var
+
+*/
+
+
 
 let number1 = 34;
 let number2 = 25;

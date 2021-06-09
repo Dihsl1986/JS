@@ -74,7 +74,7 @@ console.log(copo);
 
 
 
-*/
+
 
 // Estudo sobre escopo de function
 
@@ -94,3 +94,59 @@ console.log(subject);
 
 
 
+////// Function Hoisting /////
+
+sayMyName()
+
+function sayMyName() { // uma function criada desta forma automaticamente ela cria o hoisting
+   console.log("Diego")
+}
+
+// quando você faz uma função de uma maneira de expressão
+//ela não sofre elvação.
+
+ 
+
+
+///// Arrow Function //////
+
+
+                  //por ser uma função posso colocar um parametro normalmente 
+const sayMyName = (name) => { // <= desta forma de arrow function
+   console.log(name) // É o jeito mais simples de escrever uma function expressom
+} // não necessáriamente mas eu etribuo ela áuma constante. 
+//necessario escreve-la do modo correto por que ela não vai sofrer o hoisting
+sayMyName("Diego Santos Lima");
+
+// Se eu invocar esta função sem passar o argumento para ela vai dar como indefinida..
+  
+*/
+
+////// Callback Function //////
+
+/* É uma função esta passando como parametro para outra function,então
+O nome deixa de ser uma valor simples para ser uma função.
+significa que quando eu executar essa funtion eu estou passando
+um valor que por um acaso é uma function,se é uma function 
+preciso executar a função a qualquer momento.
+   Significa que vou chamar uma função e depos chamar outra de volta.
+   em algum momento dentro dessa função.
+*/
+
+
+
+
+function sayMyName(name){ // Registro isso na memoria 
+   console.log("Antes de executar a função callback")
+
+   saMyname() // rodou essa funtion
+
+   console.log("Depois de executar a callback")
+
+
+
+sayMyName (
+   () => {
+      console.log("Estou em uma callback")
+   }
+)

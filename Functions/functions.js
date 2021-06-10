@@ -131,7 +131,7 @@ um valor que por um acaso é uma function,se é uma function
 preciso executar a função a qualquer momento.
    Significa que vou chamar uma função e depos chamar outra de volta.
    em algum momento dentro dessa função.
-*/
+
 
 
 
@@ -150,3 +150,56 @@ sayMyName (
       console.log("Estou em uma callback")
    }
 )
+
+*/
+
+///// Function() Constructor///////
+
+/*  Function() Constructor  
+
+   * Expressão new
+   * Criar um novo objeto
+   * This keyWord
+
+*/
+
+//function Person(){} // Essa vira uma function contructor
+//const Diego = new Person(); // quando uso a expression new seguida da function
+                           //vai criar um objeto
+
+//console.log(Diego);
+// Quando você da um console log o resultado é o objeto Person
+
+/*
+function Person(name) {
+   this.name = name //  este this aqui dentro vai sempre referenciar o Diego que esta lá fora.
+   this.walk = function() {
+      return this.name + " está andando"
+   }
+
+
+}        // e o Diego que esta lá fora sempre vai ser referenciado aqui dentro como This
+
+const Diego = new Person("Diego");
+const Valentina = new Person("Valentina");
+console.log(Diego.walk()); // Agora o Diego tem uma propriedade chamada name
+console.log(Valentina.walk());
+
+let name = new String("Diego");
+console.log(name)
+
+*/
+
+
+let date = new Date("20-06-10")
+console.log(date)
+
+
+//// Temos a expressão new que a gente vai usar na frente da função
+///ela vai retornar automaticamente retorna um objeto e dentro da function 
+//Person posso fazer um molde deste objeto.
+// usando a palavra chave (This) Na construction function colocar o person
+//com letra maiuscula não é obrigatório porém  coloca-mos por boa pratica.
+//eu tenho diversas funções construturas dentro do javascript.
+
+

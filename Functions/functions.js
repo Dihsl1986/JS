@@ -200,6 +200,6 @@ console.log(date)
 //Person posso fazer um molde deste objeto.
 // usando a palavra chave (This) Na construction function colocar o person
 //com letra maiuscula não é obrigatório porém  coloca-mos por boa pratica.
-//eu tenho diversas funções construturas dentro do javascript.
+//eu tenho diversas funções construturas dentro do javascript. 
 
 

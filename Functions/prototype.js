@@ -55,11 +55,27 @@
 
  ////// Transformar letras minúsculas em maiúscula. faça o contrário disso também. ///////
 
- let word = " Eu serei um ótimo programador! "
- console.log(word.toUpperCase());
+ //let word = " Eu serei um ótimo programador! "
+ //console.log(word.toUpperCase());
 
- let name = " Eu SEREI UM [OTIMO PROGRAMADOR!"
- console.log(name.toLowerCase());  //// Posso colocar uma cadeia de metodos na propriedade de um objeto.
+ //let name = " Eu SEREI UM [OTIMO PROGRAMADOR!"
+ //console.log(name.toLowerCase());  //// Posso colocar uma cadeia de metodos na propriedade de um objeto.
+
+
+ ///////// Manipulando array e strings /////////
+
+ /* Separe um testo que contém espaços, em um novo array onde cada texto
+ é uma posição do array.Depois disso, transforme o array em um texto e onde 
+ eram espaços, coloque _
+  */
+
+ let phrase = "Eu quero evoluir!";
+ let myArray = phrase.split("");
+ let phraseWithUnderscore = myArray.join(" _ ");
+ console.log(phraseWithUnderscore.toLocaleUpperCase())
+
+drawBox(blue);
+
 
 
  

@@ -67,15 +67,44 @@
  /* Separe um testo que contém espaços, em um novo array onde cada texto
  é uma posição do array.Depois disso, transforme o array em um texto e onde 
  eram espaços, coloque _
-  */
+  
 
  let phrase = "Eu quero evoluir!";
  let myArray = phrase.split(""); //<- split vai receber no argumento oque eu quero separarnesta frase.
  let phraseWithUnderscore = myArray.join(" _ "); //<- join ele vai passar aqui no argumento oque eu quero juntar 
                                                      //vai juntar automatimante uma array 
  console.log(phraseWithUnderscore.toLocaleUpperCase());
- console.log(phrase.includes("E"))
+ console.log(phrase.includes("y"));//<- metodo includes eu passo pro argumento oque eu quero verifica se eu tenho ou não na frase.
+
+*/
 
 
+//////// Criando array constructor //////////
+//Manipular array
 
- 
+
+//let myArray = new Array(10);
+//let myArray = new Array("a","b","c");
+//console.log(myArray);
+
+///////////////// Contar Elementos de uma Array ////////
+
+/* 
+
+Cada elemento de uma array pode ser um tipo de dados diferentes
+inclusive uma function.
+
+*/
+
+
+console.log([
+      "a",
+      {typy: "arrey"},
+      function() {return "Hello"},
+][2]()); //para acessar elemento dentro de uma array
+            // eu coloco [e o número do elemento que quero ver] e
+            // Para ver a function ddentro da array [O número onde a functions estiver dentro da array]()
+
+/// Fazendo array na mão //
+
+console.log(["a","b","c","d","e","f"].length);

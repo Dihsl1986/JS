@@ -70,11 +70,11 @@
   */
 
  let phrase = "Eu quero evoluir!";
- let myArray = phrase.split("");
- let phraseWithUnderscore = myArray.join(" _ ");
- console.log(phraseWithUnderscore.toLocaleUpperCase())
-
-drawBox(blue);
+ let myArray = phrase.split(""); //<- split vai receber no argumento oque eu quero separarnesta frase.
+ let phraseWithUnderscore = myArray.join(" _ "); //<- join ele vai passar aqui no argumento oque eu quero juntar 
+                                                     //vai juntar automatimante uma array 
+ console.log(phraseWithUnderscore.toLocaleUpperCase());
+ console.log(phrase.includes("E"))
 
 
 

@@ -107,4 +107,39 @@ console.log([
 
 /// Fazendo array na mão //
 
-console.log(["a","b","c","d","e","f"].length);
+//console.log(["a","b","c","d","e","f"].length);
+
+//////// Transformar uma cadeia de caracteres em elementos de uma array //////////
+///String para arrays///
+
+//let word ="manipulação"
+//console.log(Array.from(word)); 
+            // O próprio array já é um objeto disponível
+            // de uma maneira global, então, eu posso atrelar á ele um metodo
+            //chamado from e dentro do from ele vai esperar como argumento uma 
+            //string, no caso o (word) o resultado é que cada um dos
+            //caractere da palavra "manipulação", vai virar um elemento de uma array.
+
+////// Manipulando  Arrays /////
+
+let techs = ["html","css","js"]
+
+// Adicionar um item no fim
+      techs.push("node.js","flutter");
+// Adicionar no começo
+      techs.unshift("Go","sql");
+// remover do fim
+     // techs.pop() //não preciso colocar oque quero remover
+// Remover do começo
+     // techs.shift() //não preciso colocar oque quero remover
+// Pegar somente alguns elementos do array
+      //console.log(techs.slice(1,3))
+// Remover 1 ou mais items em qualquer posição do array
+      //techs.splice(1,2) // <- aqui eu falo quantos elementos eu quero tirar.
+// Encontrar a posição de um elemento no array
+      let index = techs.indexOf("sql");
+// se quiser remover
+      techs.splice(index, 1);
+
+
+ console.log(techs);

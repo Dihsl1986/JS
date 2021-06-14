@@ -3,3 +3,5 @@
 # Todas as aulas estão devidamente comentas apesar de estar aprendendo 
 # vou deixar o maximo de ajuda que puder.
 
+Domingão só pra estudar mesmo.
+

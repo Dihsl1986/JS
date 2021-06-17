@@ -57,12 +57,9 @@ console.log(date);
  //ps: a idéia da expressão new é criar um novo objeto.
 
  /*Operadores unários
-            typeof // voi saber qual é o tipo de dado que estou querendo.
-            delete //ele vai procurar uma propriedade dentro do objeto e vai deleta-la.
-                  //desde que exista tal propriedade.
-
-
-
+            typeof  // voi saber qual é o tipo de dado que estou querendo.
+            delete // ele vai procurar uma propriedade dentro do objeto e vai deleta-la.
+                  // desde que exista tal propriedade.
 
             */
 

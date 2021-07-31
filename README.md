@@ -18,8 +18,9 @@ Discover - 1
 - [x] Estruturas de repetição
 
 
-Desenvolvido po: Diego Santos Lima 
-apredendo a cada dia!!
+Desenvolvido por: Diego Santos Lima
+
+Apredendo a cada dia!!
 
 
 

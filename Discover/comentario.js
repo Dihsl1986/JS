@@ -1,4 +1,4 @@
-//Todos os codigos que eu colocar sejam de comentários os códigos serão motivacionais
+//Toos os codigos que eu colocar sejam de comentários os códigos serão motivacionais
 
 console.log('Bem vindo ao inicio agora a parada ficou séria.')
 console.log('Olá Diego Treine Todos os dia aproveite a oportunidade.')

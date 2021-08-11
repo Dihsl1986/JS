@@ -3,4 +3,5 @@ var fruta = "Banana";
         var levar = true;
         var novoValor;
         
-        console.log(fruta + " " + preco + " " + levar + "git " + novoValor);
+       console.log(fruta + " " + preco + " " + levar + " " + novoValor);
+       alert(fruta + " " + preco + " " + levar + " " + novoValor);

@@ -3,4 +3,4 @@ var nota2 = (8);
 
 var media = (nota1 + nota2)/2;
 
-console.log(media);
+console.log(media);c

@@ -1,5 +1,5 @@
 //lêr o dado de entrada.
-var preco = (60);
+var preco = (600);
 
 //Calcular
 var avista = preco - (preco * 0.10) ;

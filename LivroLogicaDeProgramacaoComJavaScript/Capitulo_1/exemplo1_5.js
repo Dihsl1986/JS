@@ -4,4 +4,4 @@ var fruta = "Banana";
         var novoValor;
         
        console.log(fruta + " " + preco + " " + levar + " " + novoValor);
-       alert(fruta + " " + preco + " " + levar + " " + novoValor);
+       //alert(fruta + " " + preco + " " + levar + " " + novoValor);

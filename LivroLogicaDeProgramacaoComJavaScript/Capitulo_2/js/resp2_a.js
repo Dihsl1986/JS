@@ -13,6 +13,7 @@ function calcularPreco() {
 }
 
 // Cria referencia ao btCalcular
+
 var btPreco = document.getElementById("btPreco");
 
 //Registra um evento associado ao botão.

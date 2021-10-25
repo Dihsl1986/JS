@@ -13,4 +13,4 @@
 
 
 
-console.log(calcularMedia(9.0,8.0),("Sua média é:"),(media));
+console.log(calcularMedia(1.0,6.0),("Sua média é:"),(media));
